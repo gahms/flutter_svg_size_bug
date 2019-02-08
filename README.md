@@ -25,4 +25,4 @@ The Flutter project in the directory [asset_size_demo](asset_size_demo) demonstr
 
 iPhone 8          | iPhone XS
 :----------------:|:------------------:
-![](iPhone 8.png) | ![](iPhone XS.png)
+![](iPhone-8.png) | ![](iPhone-XS.png)

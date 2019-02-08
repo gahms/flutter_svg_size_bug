@@ -10,6 +10,7 @@
 * [size_demo_overview.pdf](size_demo_overview.pdf) is an export of all the Sketch file.
 
 # Actual sizes
+
 * Appear on screen roughly of size 5 x 18 mm in Sketch at 100 % zoom. (MacBook Pro, 15 inch, 2017). Measured on screen with a physical measuring tape.
 * Open SVG in Safary to preview. Size is 5 x 18 mm, same in Chrome.
 * Created Flutter app and included the exported PNGs
@@ -19,3 +20,9 @@
 * Note that iPhone 8 is a 2x device and iPhone XS is a 3x devices. That is, iPhone XS uses more pixels to show the same point size. (see [size_demo_overview.pdf](size_demo_overview.pdf))
 
 # flutter_svg
+
+The Flutter project in the directory [asset_size_demo](asset_size_demo) demonstrate how the PNGs render correctly in the correct physical size (measured in mm) while rendering the SVG with flutter_svg will double the size on a 2x device (e.g. iPhone 8) and triple its size on a 3x device (e.g. iPhone XS).
+
+iPhone 8          | iPhone XS
+:----------------:|:------------------:
+![](iPhone 8.png) | ![](iPhone XS.png)
